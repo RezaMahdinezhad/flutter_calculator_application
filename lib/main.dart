@@ -17,7 +17,7 @@ class CalculatorApplication extends StatefulWidget {
 class _CalculatorApplicationState extends State<CalculatorApplication> {
   var inputUser = '';
   var result = '';
-
+  var x = 0;
   void buttonPressed(String text) {
     setState(() {
       inputUser = inputUser + text;
